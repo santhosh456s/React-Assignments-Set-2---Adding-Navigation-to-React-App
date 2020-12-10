@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div>
       <h1>Your in About</h1>
-      <p>{location.pathname}</p>
+      <p data-testid="location-display">{location.pathname}</p>
     </div>
   );
 }

@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <h1>No Match</h1>
-      <p>{location.pathname}</p>
+      <p data-testid="location-display">{location.pathname}</p>
     </div>
   );
 }
